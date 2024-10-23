@@ -104,7 +104,7 @@ app.use('/', async function (req, res) {
 			embed.addField(`Message`, `${payload.message}`);
 		embed.setFooter(
 			`Thank you for supporting us!`,
-			`https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg`
+			`https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg\nA donation will give you no reward or advantage. It's a donation. It's voluntary. It's non-refundable since it's no service.`
 		);
 		embed.setTimestamp();
 
